@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>upqode</title>
+        <meta name="theme-color" content="#fff">
+        <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+        <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+        <link rel="shortcut icon" href="../img/favicons/favicon.ico" type="image/x-icon">
+        <link rel="icon" sizes="16x16" href="../img/favicons/favicon-16x16.png" type="image/png">
+        <link rel="icon" sizes="32x32" href="../img/favicons/favicon-32x32.png" type="image/png">
+        <link rel="apple-touch-icon-precomposed" href="../img/favicons/apple-touch-icon-precomposed.png">
+        <link rel="apple-touch-icon" href="../img/favicons/apple-touch-icon.png">
+        <link rel="apple-touch-icon" sizes="57x57" href="../img/favicons/apple-touch-icon-57x57.png">
+        <link rel="apple-touch-icon" sizes="60x60" href="../img/favicons/apple-touch-icon-60x60.png">
+        <link rel="apple-touch-icon" sizes="72x72" href="../img/favicons/apple-touch-icon-72x72.png">
+        <link rel="apple-touch-icon" sizes="76x76" href="../img/favicons/apple-touch-icon-76x76.png">
+        <link rel="apple-touch-icon" sizes="114x114" href="../img/favicons/apple-touch-icon-114x114.png">
+        <link rel="apple-touch-icon" sizes="120x120" href="../img/favicons/apple-touch-icon-120x120.png">
+        <link rel="apple-touch-icon" sizes="144x144" href="../img/favicons/apple-touch-icon-144x144.png">
+        <link rel="apple-touch-icon" sizes="152x152" href="../img/favicons/apple-touch-icon-152x152.png">
+        <link rel="apple-touch-icon" sizes="167x167" href="../img/favicons/apple-touch-icon-167x167.png">
+        <link rel="apple-touch-icon" sizes="180x180" href="../img/favicons/apple-touch-icon-180x180.png">
+        <link rel="apple-touch-icon" sizes="1024x1024" href="../img/favicons/apple-touch-icon-1024x1024.png">
+        <link rel="stylesheet" href="../libs/jquery.mmenu.all.css">
+        <link rel="stylesheet" href="../libs/slick-theme.css">
+        <link rel="stylesheet" href="../libs/slick.css">
+        <link rel="stylesheet" href="../styles/main.css">
+    </head>
+    <body>
+        <div id="my-page">
+            <header>
+    <div class="container">
+
+        <a href="/" class="logo">
+            <svg width="241" height="38" viewBox="0 0 241 38" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M15.7567 0C7.05451 0 0 7.05462 0 15.7569C0 24.4593 7.05451 31.5139 15.7567 31.5139H18.908C19.7773 31.5114 20.4812 30.8072 20.4834 29.9379V27.5522H15.7562C13.514 27.5548 11.3177 26.9172 9.42547 25.7144C9.18788 25.5634 9.0489 25.2971 9.06087 25.0158C9.07284 24.7346 9.23396 24.4811 9.48352 24.3508C9.73308 24.2206 10.0332 24.2333 10.2708 24.3843C11.9104 25.4265 13.8134 25.9788 15.7562 25.9763H20.4834V23.6342C20.4807 22.7653 19.7769 22.0617 18.908 22.0592H15.7567C12.2758 22.0592 9.45401 19.2374 9.45401 15.7564C9.45401 12.2755 12.2758 9.45366 15.7567 9.45366C19.2376 9.45366 22.0594 12.2755 22.0594 15.7564V29.9374C22.0616 30.8069 22.7658 31.5112 23.6353 31.5134H29.9365C30.8062 31.5109 31.5109 30.8067 31.5139 29.9369V15.7574C31.5139 7.05485 24.4591 0 15.7567 0ZM22.3128 6.8306C22.0857 7.18787 21.612 7.29346 21.2546 7.06646C17.1966 4.49485 11.8978 5.08162 8.50068 8.47878C5.10357 11.8759 4.51681 17.1748 7.08838 21.2329C7.24204 21.464 7.25873 21.7601 7.13203 22.007C7.00532 22.2539 6.75503 22.413 6.4777 22.4229C6.20038 22.4328 5.93938 22.2919 5.7954 22.0547C2.83843 17.3909 3.51217 11.2999 7.41694 7.39503C11.3217 3.4902 17.4126 2.81644 22.0764 5.77346C22.4331 6.00052 22.5386 6.47346 22.3123 6.8306H22.3128ZM26.7864 27.553C27.2216 27.553 27.5743 27.2002 27.5743 26.765V15.7339C27.5769 13.4917 26.9393 11.2954 25.7365 9.40309C25.5855 9.16549 25.3192 9.02651 25.038 9.03848C24.7567 9.05045 24.5032 9.21157 24.373 9.46114C24.2427 9.7107 24.2555 10.0108 24.4065 10.2484C25.4487 11.888 26.001 13.7911 25.9984 15.7339V26.765C25.9984 27.2002 26.3512 27.553 26.7864 27.553Z" fill="white"/>
+                <path d="M47.016 22.076V10.344H51.804V22.076C51.804 23.252 52.0933 24.1573 52.672 24.792C53.2507 25.4267 54.1 25.744 55.22 25.744C56.34 25.744 57.1987 25.4267 57.796 24.792C58.3933 24.1573 58.692 23.252 58.692 22.076V10.344H63.48V22.076C63.48 23.812 63.0693 25.3147 62.248 26.584C61.4453 27.8347 60.4187 28.7493 59.168 29.328C57.936 29.9067 56.592 30.196 55.136 30.196C52.8587 30.196 50.936 29.4867 49.368 28.068C47.8 26.6493 47.016 24.652 47.016 22.076ZM82.5605 16.364C82.5605 17.6893 82.0845 18.968 81.1325 20.2C80.6285 20.8347 79.8725 21.3573 78.8645 21.768C77.8751 22.16 76.6991 22.356 75.3365 22.356H72.3685V30H67.5805V10.344H75.3365C77.6138 10.344 79.3871 10.932 80.6565 12.108C81.9258 13.284 82.5605 14.7027 82.5605 16.364ZM72.3685 18.716H75.3365C76.0645 18.716 76.6338 18.5013 77.0445 18.072C77.4738 17.6427 77.6885 17.0827 77.6885 16.392C77.6885 15.6827 77.4738 15.104 77.0445 14.656C76.6151 14.208 76.0458 13.984 75.3365 13.984H72.3685V18.716ZM94.3679 30.196C91.5493 30.196 89.1599 29.244 87.1999 27.34C85.2586 25.436 84.2879 23.028 84.2879 20.116C84.2879 17.204 85.2586 14.8053 87.1999 12.92C89.1599 11.016 91.5493 10.064 94.3679 10.064C97.2053 10.064 99.5853 11.016 101.508 12.92C103.449 14.8053 104.42 17.204 104.42 20.116C104.42 21.7587 104.084 23.2707 103.412 24.652C102.759 26.0147 101.853 27.1533 100.696 28.068L104.7 33.22H98.9039L96.5239 29.972C95.7773 30.1213 95.0586 30.196 94.3679 30.196ZM90.5599 16C89.6266 17.0267 89.1599 18.3987 89.1599 20.116C89.1599 21.8333 89.6266 23.2053 90.5599 24.232C91.5119 25.2587 92.7719 25.772 94.3399 25.772C95.9266 25.772 97.1866 25.2587 98.1199 24.232C99.0719 23.2053 99.5479 21.8333 99.5479 20.116C99.5479 18.3987 99.0719 17.0267 98.1199 16C97.1866 14.9733 95.9266 14.46 94.3399 14.46C92.7719 14.46 91.5119 14.9733 90.5599 16ZM120.35 24.232C121.302 23.2053 121.778 21.8333 121.778 20.116C121.778 18.3987 121.302 17.0267 120.35 16C119.417 14.9733 118.157 14.46 116.57 14.46C115.002 14.46 113.742 14.9733 112.79 16C111.857 17.0267 111.39 18.3987 111.39 20.116C111.39 21.8333 111.857 23.2053 112.79 24.232C113.742 25.2587 115.002 25.772 116.57 25.772C118.157 25.772 119.417 25.2587 120.35 24.232ZM109.43 27.34C107.489 25.436 106.518 23.028 106.518 20.116C106.518 17.204 107.489 14.8053 109.43 12.92C111.39 11.016 113.78 10.064 116.598 10.064C119.436 10.064 121.816 11.016 123.738 12.92C125.68 14.8053 126.65 17.204 126.65 20.116C126.65 23.028 125.68 25.436 123.738 27.34C121.797 29.244 119.417 30.196 116.598 30.196C113.78 30.196 111.39 29.244 109.43 27.34ZM134.521 26.36H136.649C138.478 26.36 139.915 25.8 140.961 24.68C142.006 23.56 142.529 22.0573 142.529 20.172C142.529 18.2867 142.006 16.784 140.961 15.664C139.915 14.544 138.478 13.984 136.649 13.984H134.521V26.36ZM136.649 10.344C139.785 10.344 142.361 11.2587 144.377 13.088C146.393 14.8987 147.401 17.26 147.401 20.172C147.401 23.0653 146.393 25.4267 144.377 27.256C142.361 29.0853 139.785 30 136.649 30H129.733V10.344H136.649ZM162.332 10.288V13.928H155.22V18.156H161.492V21.796H155.22V26.36H162.332V30H150.432V10.288H162.332Z" fill="white"/>
+            </svg>
+        </a>
+
+
+        <nav class="">
+            <a class="" href="#home">Home</a>
+            <a class="" href="#servises">Servises</a>
+            <a class="" href="#team">Team</a>
+            <a class="" href="#contact_us">Contact Us</a>
+        </nav>
+
+
+        <!-- MOBILE-MENU -->
+        <!--<div class="header-mobile js_remove-hidden hidden">-->
+            <!--<a href="#myMenu" class="hamburger hamburger&#45;&#45;spin">-->
+            <!--<span class="hamburger-box">-->
+                <!--<span class="hamburger-inner"></span>-->
+            <!--</span>-->
+            <!--</a>-->
+        <a href="#myMenu" class="hamburger hamburger--arrow">
+        <!--<div class="hamburger hamburger&#45;&#45;arrow is-active">-->
+            <div class="hamburger-box">
+                <div class="hamburger-inner"></div>
+            </div>
+        </a>
+
+        <!--<a href="" class="logo-mobile"><img class="img_r" src="img/logo-top.png" alt=""></a>-->
+        <div id="myMenu">
+            <ul>
+                <li><a class="" href="#home">Home</a></li>
+                <li><a class="" href="#servises">Servises</a></li>
+                <li><a class="" href="#team">Team</a></li>
+                <li><a class="" href="#contact_us">Contact Us</a></li>
+            </ul>
+        </div>
+        <!--</div>-->
+        <!-- MOBILE-MENU END-->
+    </div>
+
+</header><!-- HEADER END -->
+
+            <section class="block--slider" id="home">
+    <div class="slider_fw js_slider-fw">
+        <div class="slide">
+            <img src="../../img/imgh1.jpg" alt="slide 1">
+            <h2>Mileage Made Simple</h2>
+            <h5>Motivation And Your Personal Vision An Unbeatable Force</h5>
+            <a href="#" class="btn btn--green">Start Free Trial</a>
+        </div>
+
+        <div class="slide">
+            <!--<img src="../../img/imgh1.jpg" alt="slide 1">-->
+            <div id="ytplayer"></div>
+            <h2>ytplayer video Simple</h2>
+            <h5>Motivation And Your Personal Vision An Unbeatable Force</h5>
+            <a href="#" class="btn btn--green">Start Free Trial</a>
+        </div>
+
+        <div class="slide">
+            <img src="../../img/imgh1.jpg" alt="slide 1">
+            <h2>Mileage Made Simple</h2>
+            <h5>Motivation And Your Personal Vision An Unbeatable Force</h5>
+            <a href="#" class="btn btn--green">Start Free Trial</a>
+        </div>
+
+        <div class="slide ">
+            <!--<img src="../../img/imgh1.jpg" alt="slide 1">-->
+            <video width="400" height="300" autoplay  poster="../../../img/flower.jpg" preload="none">
+                <source src="../../../video/flower.mp4" type="video/mp4">
+                <source src="../../../video/flower.webm" type="video/webm">
+                <a href="../../../video/flower.mp4">Скачайте видео</a>
+            </video>
+            <h2> video Simple</h2>
+            <h5>Café Swing | Electro Swing Mix 2019</h5>
+            <a href="#" class="btn btn--green">Start Free Trial</a>
+        </div>
+
+    </div>
+
+
+
+
+
+    <script>
+        // Load the IFrame Player API code asynchronously.
+        var tag = document.createElement('script');
+        tag.src = "https://www.youtube.com/player_api";
+        var firstScriptTag = document.getElementsByTagName('script')[0];
+        firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+
+        // Replace the 'ytplayer' element with an <iframe> and
+        // YouTube player after the API code downloads.
+        var player;
+        function onYouTubePlayerAPIReady() {
+            player = new YT.Player('ytplayer', {
+                height: '360',
+                width: '640',
+                videoId: '1hY8f20tqlI'
+            });
+        }
+    </script>
+
+</section>
+
+            
+
+<section class="block--map" id="contact_us">
+    <div class="container">
+        <div class="map__links">
+            <h3>Meet Us
+                in Your City</h3>
+            <h6>2005 Stokes Isle Apt. 896, <br>
+                Venaville, New York 10010</h6>
+            <div class="map__list js-map__links-list">
+                <div data-href="1" class='active'>
+                    <i class="icon icon--map"></i>
+                    <div class="position__info">
+                        <h5>Los Angeles, USA </h5>
+                        <p>2005 Stokes Isle Apt. 896, Venaville, New York 10010</p>
+                    </div>
+                </div>
+                <div  data-href="2">
+                    <i class="icon icon--map"></i>
+                    <div class="position__info">
+                        <h5>NewYork, USA</h5>
+                        <p>2005 Stokes Isle Apt. 896, Venaville, New York 10010</p>
+                    </div>
+                </div>
+                <div  data-href="3">
+                    <i class="icon icon--map"></i>
+                    <div class="position__info">
+                        <h5>Boston, USA</h5>
+                        <p>2005 Stokes Isle Apt. 896, Venaville, New York 10010</p>
+                    </div>
+                </div>
+                <div  data-href="4">
+                    <i class="icon icon--map"></i>
+                    <div class="position__info">
+                        <h5>Detroit, USA</h5>
+                        <p>2005 Stokes Isle Apt. 896, Venaville, New York 10010</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="map__content">
+
+
+            <div class='active' data-map="1">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15330.866955531408!2d-118.39416041577459!3d33.749756997888994!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c2c75ddc27da13%3A0xe22fdf6f254608f4!2z0JvQvtGBLdCQ0L3QtNC20LXQu9C10YEsINCa0LDQu9C40YTQvtGA0L3QuNGPLCDQodCo0JA!5e0!3m2!1sru!2sua!4v1569960414896!5m2!1sru!2sua" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+
+                <div class="map__badge">
+                    <h4>Los Angeles, USA</h4>
+                    <p>2005 Stokes Isle Apt. 896, <wbr>
+                        New York 10010</p>
+
+                    <div class="info">
+                        <div class="info__title">
+                            <i class="icon icon--time"></i>
+                            <span class="title">Work Schedule</span>
+                        </div>
+
+                        <span>Mon - Sat:<time>11:00-19:00</time>,</span>
+                        <span>Sun: <time>11:00-16:00</time>,</span>
+                    </div>
+
+                    <div class="info">
+                        <div class="info__title">
+                            <i class="icon icon--phone"></i>
+                            <span class="title">Head Office</span>
+                        </div>
+
+                        <a href="tel:0043568456902">(0043) 568 456 902</a>
+                        <a href="tel:0043568456902">(0043) 568 456 902</a>
+                    </div>
+
+                    <div class="info">
+                        <div class="info__title">
+                            <i class="icon icon--letter"></i>
+                            <span class="title">Head Office</span>
+                        </div>
+
+                        <a href="mailto:hello@pad.architecture">hello@pad.architecture</a>
+                        <a href="mailto:support@pad.architecture">support@pad.architecture</a>
+                    </div>
+
+                </div>
+            </div>
+
+            <div data-map="2">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1346.0420484412998!2d-73.97232654491083!3d40.76711997710046!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c24fa5d33f083b%3A0xc80b8f06e177fe62!2z0J3RjNGOLdCZ0L7RgNC6LCDQodCo0JA!5e0!3m2!1sru!2sua!4v1569960349031!5m2!1sru!2sua" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+
+                <div class="map__badge">
+                    <h4>NewYork</h4>
+                    <p>2005 Stokes Isle Apt. 896, <wbr>
+                        New York 10010</p>
+
+                    <div class="info">
+                        <div class="info__title">
+                            <i class="icon icon--time"></i>
+                            <span class="title">Work Schedule</span>
+                        </div>
+
+                        <span>Mon - Sat:<time>11:00-19:00</time>,</span>
+                        <span>Sun: <time>11:00-16:00</time>,</span>
+                    </div>
+
+                    <div class="info">
+                        <div class="info__title">
+                            <i class="icon icon--phone"></i>
+                            <span class="title">Head Office</span>
+                        </div>
+
+                        <a href="tel:0043568456902">(0043) 568 456 902</a>
+                        <a href="tel:0043568456902">(0043) 568 456 902</a>
+                    </div>
+
+                    <div class="info">
+                        <div class="info__title">
+                            <i class="icon icon--letter"></i>
+                            <span class="title">Head Office</span>
+                        </div>
+
+                        <a href="mailto:hello@pad.architecture">hello@pad.architecture</a>
+                        <a href="mailto:support@pad.architecture">support@pad.architecture</a>
+                    </div>
+
+                </div>
+            </div>
+
+            <div data-map="3">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12654.525826218425!2d-71.06186903411358!3d42.35449620728133!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89e3652d0d3d311b%3A0x787cbf240162e8a0!2z0JHQvtGB0YLQvtC9LCDQnNCw0YHRgdCw0YfRg9GB0LXRgtGBLCDQodCo0JA!5e0!3m2!1sru!2sua!4v1569960598363!5m2!1sru!2sua" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+
+                <div class="map__badge">
+                    <h4>Boston, USA</h4>
+                    <p>2005 Stokes Isle Apt. 896, <wbr>
+                        New York 10010</p>
+
+                    <div class="info">
+                        <div class="info__title">
+                            <i class="icon icon--time"></i>
+                            <span class="title">Work Schedule</span>
+                        </div>
+
+                        <span>Mon - Sat:<time>11:00-19:00</time>,</span>
+                        <span>Sun: <time>11:00-16:00</time>,</span>
+                    </div>
+
+                    <div class="info">
+                        <div class="info__title">
+                            <i class="icon icon--phone"></i>
+                            <span class="title">Head Office</span>
+                        </div>
+
+                        <a href="tel:0043568456902">(0043) 568 456 902</a>
+                        <a href="tel:0043568456902">(0043) 568 456 902</a>
+                    </div>
+
+                    <div class="info">
+                        <div class="info__title">
+                            <i class="icon icon--letter"></i>
+                            <span class="title">Head Office</span>
+                        </div>
+
+                        <a href="mailto:hello@pad.architecture">hello@pad.architecture</a>
+                        <a href="mailto:support@pad.architecture">support@pad.architecture</a>
+                    </div>
+
+                </div>
+            </div>
+
+            <div data-map="4">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d47163.65509623482!2d-83.04204702706777!3d42.36962624158326!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sru!2sua!4v1569960704410!5m2!1sru!2sua" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+
+                <div class="map__badge">
+                    <h4>Detroit, USA</h4>
+                    <p>2005 Stokes Isle Apt. 896, <wbr>
+                        New York 10010</p>
+
+                    <div class="info">
+                        <div class="info__title">
+                            <i class="icon icon--time"></i>
+                            <span class="title">Work Schedule</span>
+                        </div>
+
+                        <span>Mon - Sat:<time>11:00-19:00</time>,</span>
+                        <span>Sun: <time>11:00-16:00</time>,</span>
+                    </div>
+
+                    <div class="info">
+                        <div class="info__title">
+                            <i class="icon icon--phone"></i>
+                            <span class="title">Head Office</span>
+                        </div>
+
+                        <a href="tel:0043568456902">(0043) 568 456 902</a>
+                        <a href="tel:0043568456902">(0043) 568 456 902</a>
+                    </div>
+
+                    <div class="info">
+                        <div class="info__title">
+                            <i class="icon icon--letter"></i>
+                            <span class="title">Head Office</span>
+                        </div>
+
+                        <a href="mailto:hello@pad.architecture">hello@pad.architecture</a>
+                        <a href="mailto:support@pad.architecture">support@pad.architecture</a>
+                    </div>
+
+                </div>
+            </div>
+
+
+
+
+        </div>
+    </div>
+
+
+
+</section>
+
+
+            <footer>
+    <div class="container">
+        <a href="/" class="logo">
+            <svg width="44" height="44" viewBox="0 0 44 44" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M21.9286 0C9.81776 0 0 9.81792 0 21.9289C0 34.0399 9.81776 43.8579 21.9286 43.8579H26.3143C27.524 43.8544 28.5037 42.8744 28.5068 41.6646V38.3444H21.9279C18.8075 38.348 15.7509 37.4606 13.1174 35.7867C12.7868 35.5766 12.5933 35.206 12.61 34.8145C12.6267 34.4231 12.8509 34.0703 13.1982 33.889C13.5455 33.7077 13.9632 33.7255 14.2938 33.9357C16.5756 35.3861 19.2242 36.1547 21.9279 36.1512H28.5068V32.8917C28.503 31.6825 27.5235 30.7033 26.3143 30.6998H21.9286C17.0843 30.6998 13.1572 26.7726 13.1572 21.9282C13.1572 17.0838 17.0843 13.1567 21.9286 13.1567C26.7729 13.1567 30.7 17.0838 30.7 21.9282V41.6639C30.7031 42.874 31.6832 43.8541 32.8932 43.8572H41.6626C42.873 43.8537 43.8537 42.8737 43.8579 41.6632V21.9296C43.8579 9.81823 34.0398 0 21.9286 0ZM31.0527 9.50614C30.7366 10.0034 30.0774 10.1503 29.5801 9.83439C23.9325 6.25549 16.5582 7.07209 11.8304 11.7999C7.10264 16.5278 6.28605 23.9022 9.8649 29.5499C10.0787 29.8715 10.102 30.2836 9.92564 30.6272C9.74931 30.9708 9.40097 31.1922 9.01502 31.2059C8.62906 31.2197 8.26583 31.0237 8.06545 30.6935C3.95025 24.2029 4.88789 15.726 10.3222 10.2917C15.7564 4.85731 24.2331 3.91965 30.7237 8.03492C31.2201 8.35092 31.3669 9.00911 31.052 9.50614H31.0527ZM37.2786 38.3455C37.8842 38.3455 38.3752 37.8545 38.3752 37.2489V21.8969C38.3788 18.7764 37.4914 15.7198 35.8175 13.0863C35.6074 12.7556 35.2368 12.5622 34.8454 12.5789C34.4539 12.5955 34.1011 12.8197 33.9198 13.1671C33.7386 13.5144 33.7563 13.932 33.9665 14.2627C35.4169 16.5445 36.1855 19.1931 36.182 21.8969V37.2489C36.182 37.8545 36.673 38.3455 37.2786 38.3455Z" fill="white"/>
+            </svg>
+
+            <svg width="188" height="39" viewBox="0 0 188 39" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M0.714 19.982C0.714 28.906 6.556 33.322 14.054 33.322C21.506 33.322 27.762 28.906 27.762 19.982V0.707999H19.896V20.028C19.896 23.846 17.918 26.054 14.192 26.054C10.466 26.054 8.58 23.846 8.58 20.028V0.707999H0.714V19.982ZM41.1516 15.152V7.056H45.4296C48.5576 7.056 49.8916 8.62 49.8916 11.104C49.8916 13.588 48.5576 15.152 45.4296 15.152H41.1516ZM57.8956 11.104C57.8956 5.17 53.9396 0.707999 46.0276 0.707999H33.2856V33H41.1516V21.408H46.0276C54.2616 21.408 57.8956 16.44 57.8956 11.104ZM68.7067 16.762C68.7067 11.012 72.0187 7.378 77.2627 7.378C82.4147 7.378 85.7727 11.012 85.7727 16.762C85.7727 22.42 82.4147 26.146 77.2627 26.146C72.0187 26.146 68.7067 22.42 68.7067 16.762ZM93.7767 16.762C93.7767 7.056 86.4627 0.247999 77.2627 0.247999C68.1087 0.247999 60.6567 7.056 60.6567 16.762C60.6567 26.468 68.1087 33.322 77.2627 33.322C78.5047 33.322 79.7007 33.184 80.8507 32.954L84.9907 38.52H94.5127L87.4287 30.01C91.2927 27.066 93.7767 22.42 93.7767 16.762ZM130.029 16.762C130.029 7.056 122.715 0.247999 113.515 0.247999C104.361 0.247999 96.9086 7.056 96.9086 16.762C96.9086 26.468 104.361 33.322 113.515 33.322C122.669 33.322 130.029 26.468 130.029 16.762ZM104.959 16.762C104.959 11.012 108.271 7.378 113.515 7.378C118.667 7.378 122.025 11.012 122.025 16.762C122.025 22.42 118.667 26.146 113.515 26.146C108.271 26.146 104.959 22.42 104.959 16.762ZM146.503 0.707999H134.405V33H146.503C156.807 33 163.431 26.422 163.431 16.854C163.431 7.24 156.807 0.707999 146.503 0.707999ZM142.271 26.192V7.424H145.997C151.931 7.424 155.427 10.92 155.427 16.854C155.427 22.788 151.931 26.192 145.997 26.192H142.271ZM187.607 0.707999H167.827V33H187.607V26.698H175.693V19.614H186.227V13.542H175.693V7.01H187.607V0.707999Z" fill="white"/>
+            </svg>
+        </a>
+
+        <div class="copy__info">
+            © UpQode <span class="date__year">2019</span>.  All Right Reserved.
+        </div>
+    </div>
+</footer>
+
+
+        </div>
+
+        <script  src="../libs/jquery.min.js"></script>
+        <script defer src="../js/main.js"></script>
+        <script defer src="../js/vendor.js"></script>
+        <script defer src="../libs/slick.min.js"></script>
+        <script defer src="../libs/jquery.mmenu.all.js"></script>
+
+    </body>
+</html>

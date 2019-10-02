@@ -1,0 +1,183 @@
+.block--slider {
+    height: 100vh;
+    min-height: 500px;
+}
+
+.slider {
+    &_fw {
+        position: relative;
+        //min-height: 100vh;
+        height: 100%;
+        //margin-top: 80px;
+        text-align: center;
+        .slick-list {
+            height: 100%;
+            > * {
+                height: 100%;
+            }
+        }
+        .slide {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            position: relative;
+            height: 100%;
+            &:focus {
+                border: none;
+                outline: none;
+            }
+            img {
+                position: absolute;
+                z-index: -1;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: auto;
+                object-fit: cover;
+                filter: alpha(.85);
+            }
+            video,
+            iframe {
+                z-index: -1;
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100%;
+                min-height: 100%;
+                height: 100%;
+            }
+            video {
+                height: auto;
+                min-height: unset;
+            }
+        }
+
+        h2 {
+            text-align: center;
+            margin-bottom: 25px;
+            font-weight: 700;
+            color: #fff;
+            letter-spacing: 2px;
+        }
+        h5 {
+            color: #fff;
+            margin-bottom: 55px;
+        }
+        .btn {
+            flex-grow: 0;
+        }
+    }
+}
+
+
+.slick {
+    &-prev, &-next {
+        display: block;
+        position: absolute;
+        z-index: 1;
+        top: 50%;
+        left: 15%;
+        width: 30px;
+        height: 43px;
+        border: none;
+        padding: 0;
+        line-height: 0;
+        font-size: 0;
+        cursor: pointer;
+        background: transparent;
+        color: transparent;
+        margin-top: -10px;
+        outline: none;
+        &:before {
+            content: "";
+            display: block;
+            width: 25px;
+            height: 25px;
+            border: none;
+            transform: rotate(135deg);
+            border-right: 4px solid #fff;
+            border-bottom: 4px solid #fff;
+        }
+    }
+    &-next {
+        right: 15%;
+        left: auto;
+        &:before {
+
+            transform: rotate(-45deg);
+        }
+    }
+
+    &-dots {
+        bottom: 30px;
+        li {
+            margin: 0 6px;
+
+            button {
+                width: 22px;
+                height: 22px;
+                border: 1px solid $green;
+                padding: 0;
+                background: transparent;
+                border-radius: 50%;
+                &:before {
+                    content: "";
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    position: relative;
+                    width: 12px;
+                    height: 12px;
+                    margin: 0 auto;
+                    border-radius: 50%;
+                    background: #fff;
+                    opacity: 1;
+                    transition: background .25s, opacity .25s;
+                }
+                &:hover {
+                    &:before {
+                        background: $green;
+                        opacity: .7;
+                        transition: background .25s, opacity .25s;
+                    }
+                }
+            }
+            &.slick-active {
+                button:before {
+                    background: $green;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .slick {
+        &-prev {
+            left: 5%;
+        }
+        &-next {
+            right: 5%;
+        }
+    }
+    .slider_fw .slide video {
+        height: 100%;
+        background: #222;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .slick {
+        &-prev, &-next {
+            top: 80%;
+        }
+        &-prev {
+            left: 5%;
+        }
+        &-next {
+            right: 5%;
+        }
+    }
+}
+

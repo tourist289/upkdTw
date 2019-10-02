@@ -1,0 +1,62 @@
+<section class="block--slider" id="home">
+    <div class="slider_fw js_slider-fw">
+        <div class="slide">
+            <img src="../../img/imgh1.jpg" alt="slide 1">
+            <h2>Mileage Made Simple</h2>
+            <h5>Motivation And Your Personal Vision An Unbeatable Force</h5>
+            <a href="#" class="btn btn--green">Start Free Trial</a>
+        </div>
+
+        <div class="slide">
+            <!--<img src="../../img/imgh1.jpg" alt="slide 1">-->
+            <div id="ytplayer"></div>
+            <h2>ytplayer video Simple</h2>
+            <h5>Motivation And Your Personal Vision An Unbeatable Force</h5>
+            <a href="#" class="btn btn--green">Start Free Trial</a>
+        </div>
+
+        <div class="slide">
+            <img src="../../img/imgh1.jpg" alt="slide 1">
+            <h2>Mileage Made Simple</h2>
+            <h5>Motivation And Your Personal Vision An Unbeatable Force</h5>
+            <a href="#" class="btn btn--green">Start Free Trial</a>
+        </div>
+
+        <div class="slide ">
+            <!--<img src="../../img/imgh1.jpg" alt="slide 1">-->
+            <video width="400" height="300" autoplay  poster="../../../img/flower.jpg" preload="none">
+                <source src="../../../video/flower.mp4" type="video/mp4">
+                <source src="../../../video/flower.webm" type="video/webm">
+                <a href="../../../video/flower.mp4">Скачайте видео</a>
+            </video>
+            <h2> video Simple</h2>
+            <h5>Café Swing | Electro Swing Mix 2019</h5>
+            <a href="#" class="btn btn--green">Start Free Trial</a>
+        </div>
+
+    </div>
+
+
+
+
+
+    <script>
+        // Load the IFrame Player API code asynchronously.
+        var tag = document.createElement('script');
+        tag.src = "https://www.youtube.com/player_api";
+        var firstScriptTag = document.getElementsByTagName('script')[0];
+        firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+
+        // Replace the 'ytplayer' element with an <iframe> and
+        // YouTube player after the API code downloads.
+        var player;
+        function onYouTubePlayerAPIReady() {
+            player = new YT.Player('ytplayer', {
+                height: '360',
+                width: '640',
+                videoId: '1hY8f20tqlI'
+            });
+        }
+    </script>
+
+</section>
